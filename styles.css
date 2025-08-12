@@ -1113,6 +1113,26 @@ body {
     color: rgba(255, 255, 255, 0.8);
 }
 
+.developer-credit {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.85);
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.developer-credit a {
+    color: var(--primary-yellow);
+    text-decoration: none;
+    font-weight: var(--subheading-weight);
+    transition: all 0.3s ease;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.developer-credit a:hover {
+    color: var(--white);
+    text-shadow: 0 2px 8px rgba(255, 215, 0, 0.6);
+    transform: translateY(-1px);
+}
+
 .footer-motto {
     font-size: 1rem;
     color: var(--primary-yellow);
